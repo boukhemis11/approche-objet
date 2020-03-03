@@ -15,4 +15,32 @@ public class Personne {
 		this.prenom=prenom;
 		this.adressePostale=adressePostale ;
 	}
+	
+	public void print() {
+		System.out.println(nom.toUpperCase());
+		System.out.println(prenom);
+	}
+	
+	public String editName(String name) {
+		this.nom = name;
+		return name;
+	}
+	
+	public String editAdress(String adress) {
+		this.adressePostale = adress;
+		return adress;
+	}
+
+	public String nomRt() {
+		return this.nom;
+	}
+	
+	public String prenomRt() {
+		return this.prenom;
+	}
+	
+	public String AdressRt() {
+		return this.adressePostale;
+	}
+	
 }
