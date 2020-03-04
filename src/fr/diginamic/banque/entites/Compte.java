@@ -1,17 +1,17 @@
 package fr.diginamic.banque.entites;
 
 public class Compte {
- private int nbrCmpt;
+ private String nbrCmpt;
  private double soldeCmpt;
  
-public Compte(int nbrCmpt, double soldeCmpt) {
+public Compte(String nbrCmpt, double soldeCmpt) {
 	this.nbrCmpt = nbrCmpt;
 	this.soldeCmpt = soldeCmpt;
 }
 
 @Override
 public String toString() {
-	return "Compte [nbrCmpt=" + nbrCmpt + ", soldeCmpt=" + soldeCmpt + "]";
+	return "N° de compte est : " + nbrCmpt + " et le solde du compte est : " + soldeCmpt + ".";
 }
  
  
