@@ -42,5 +42,10 @@ public class Personne {
 	public String AdressRt() {
 		return this.adressePostale;
 	}
+
+	@Override
+	public String toString() {
+		return "nom = " + nom + ", prenom = " + prenom;
+	}
 	
 }
