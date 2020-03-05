@@ -1,6 +1,7 @@
 package essais;
 
 import entites.Cercle;
+import utils.CercleFactory;
 
 public class TestCercle {
 
@@ -14,6 +15,7 @@ public class TestCercle {
 		System.out.println(c2.getPerim());
 		System.out.println(c2.getAir());
 
+		Cercle cercle = CercleFactory.creer(5);
 
 	}
 
