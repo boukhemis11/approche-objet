@@ -4,11 +4,17 @@ public abstract class Piece {
 
 	private double superficie;
 	private int nbrEtage;
+	private String type;
 	
 	public Piece(double superficie, int nbrEtage2) {
 		super();
 		this.superficie = superficie;
 		this.nbrEtage = nbrEtage2;
+	}
+	
+	public String getType() {
+
+		return type;
 	}
 
 	public double getSuperficie() {

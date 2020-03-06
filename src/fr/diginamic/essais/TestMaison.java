@@ -3,6 +3,7 @@ package fr.diginamic.essais;
 import fr.diginamic.maison.Chambre;
 import fr.diginamic.maison.Cuisine;
 import fr.diginamic.maison.Maison;
+import fr.diginamic.maison.Piece;
 import fr.diginamic.maison.SalleDeBain;
 import fr.diginamic.maison.Salon;
 import fr.diginamic.maison.Wc;
@@ -36,6 +37,11 @@ public class TestMaison {
 		m.ajouterPiece(new Salon(20, -5));
 		System.out.println(m);
 		
+		double d = m.superficieGlobale("Wc");
+		System.out.println(d);
+		
+		int n = m.nombrePiece("Chambre");
+		System.out.println(n);
 	}
 
 }

@@ -6,5 +6,11 @@ public class Chambre extends Piece {
 		super(superficie, nbrEtage);
 
 	}
+	
+	@Override
+	public String getType() {
+
+		return "Chambre";
+	}
 
 }

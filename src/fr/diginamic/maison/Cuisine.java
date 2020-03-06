@@ -6,5 +6,10 @@ public class Cuisine extends Piece {
 		super(superficie, nbrEtage);
 		// TODO Auto-generated constructor stub
 	}
+	
+	@Override
+	public String getType() {
 
+		return "Cuisine";
+	}
 }

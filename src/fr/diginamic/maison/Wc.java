@@ -7,4 +7,9 @@ public class Wc extends Piece {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public String getType() {
+
+		return "Wc";
+	}
 }
