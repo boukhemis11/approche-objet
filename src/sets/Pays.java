@@ -38,4 +38,7 @@ public class Pays {
 		this.pib = pib;
 	}
 
+	public String toString() {
+		return "Pays [pays=" + pays + ", population du pays = " + nbHab + ", PIB/habitant du pays = " + pib + "]";
+	}
 }
