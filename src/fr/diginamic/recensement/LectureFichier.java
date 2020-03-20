@@ -1,4 +1,4 @@
-package fr.diginamic.fichier;
+package fr.diginamic.recensement;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
